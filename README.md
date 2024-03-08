@@ -24,7 +24,7 @@ O Color Flipper é um projeto simples que demonstra como criar uma aplicação w
 2. Navegue até o diretório do projeto:
 
     ```
-    cd color-flipper
+    cd ColorFlipper
     ```
 
 3. Abra o arquivo `index.html` em seu navegador.
