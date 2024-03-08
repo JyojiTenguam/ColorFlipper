@@ -29,7 +29,7 @@ O Color Flipper é um projeto simples que demonstra como criar uma aplicação w
 
 3. Abra o arquivo `index.html` em seu navegador.
 
-4. Clique no botão "Trocar Cor" para ver a cor de fundo da página mudar aleatoriamente.
+4. Clique no botão "Click me" para ver a cor de fundo da página mudar aleatoriamente.
 
 ## Exemplo de Código
 
