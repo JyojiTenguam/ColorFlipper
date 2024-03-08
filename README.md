@@ -18,7 +18,7 @@ O Color Flipper é um projeto simples que demonstra como criar uma aplicação w
 1. Clone este repositório para o seu computador:
 
     ```
-    git clone https://github.com/seu-usuario/color-flipper.git
+    git@github.com:JyojiTenguam/ColorFlipper.git
     ```
 
 2. Navegue até o diretório do projeto:
