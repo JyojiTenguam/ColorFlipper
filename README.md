@@ -34,20 +34,18 @@ O Color Flipper é um projeto simples que demonstra como criar uma aplicação w
 ## Exemplo de Código
 
 ```javascript
-const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
+const colors = ["#ff0000", "#00ff00", "#0000ff", "#ffff00", "#00ffff", "#ff00ff"];
 
-const btn = document.getElementById("btn");
-const color = document.querySelector(".color");
+const button = document.getElementById("btn");
+const body = document.body;
 
-btn.addEventListener('click', function () {
-  let hexColor = "#";
-  for(let index = 0; index < 6; index++){
-    hexColor += hex[getRandomNumber()];
-  }
-  color.textContent = hexColor;
-  document.body.style.background = hexColor;
-});
+button.addEventListener("click", changeColor);
 
-function getRandomNumber(){
-  return Math.floor(Math.random() * hex.length);
+function changeColor() {
+    // Gera um índice aleatório dentro do comprimento da array de cores
+    const randomIndex = Math.floor(Math.random() * colors.length);
+    // Obtém a cor correspondente ao índice aleatório
+    const color = colors[randomIndex];
+    // Altera a cor de fundo do corpo da página
+    body.style.backgroundColor = color;
 }
